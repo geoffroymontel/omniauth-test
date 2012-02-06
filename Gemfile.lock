@@ -125,6 +125,7 @@ DEPENDENCIES
   jquery-rails
   omniauth
   omniauth-facebook
+  omniauth-oauth2
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
   sqlite3

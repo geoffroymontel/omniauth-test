@@ -23,6 +23,7 @@ end
 gem 'jquery-rails'
 
 gem 'omniauth'
+gem 'omniauth-oauth2'
 gem 'omniauth-facebook'
 
 # To use ActiveModel has_secure_password
