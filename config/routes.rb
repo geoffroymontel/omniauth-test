@@ -1,5 +1,7 @@
 OmniauthTest::Application.routes.draw do
   match 'auth/facebook/callback' => 'sessions#create'
+  match 'auth/deezer/callback' => 'sessions#create'
+  match 'auth/failure' => 'errors#login_failed'
 
   get "home/index"
 
